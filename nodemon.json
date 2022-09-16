@@ -1,0 +1,8 @@
+{
+  "watch": ["**/*"],
+  "ignore": ["dist/", "node_modules", ".git"],
+  "ext": "js,json",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}

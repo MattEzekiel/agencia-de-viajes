@@ -1,0 +1,22 @@
+{
+  "name": "agencia-de-viajes",
+  "version": "1.0.0",
+  "description": "Primer projecto con nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "author": "Matías",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

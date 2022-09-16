@@ -1,0 +1,26 @@
+extends ./layout/index
+block slider
+    .slider
+        h1 Rio de Janeiro
+        p Aventura
+block contenido
+    main.container.mt-5
+        h2.Text-center.mb-5 Sobre nosotros
+        .row.mb-5
+            .col-md-6
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate eaque molestiae necessitatibus nisi nulla placeat quisquam ullam unde. Adipisci, amet aut dicta fugit optio possimus reprehenderit sed tempore voluptatibus voluptatum.
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="imagen nosotros", class="img-fluid")
+        include ./layout/bloque_viajes
+    .descuento
+        .container
+            .row
+                .col-md-6
+                    .contenido
+                        h3 5% de descuento
+                        p.titulo Viaje a Canada
+                        p.fecha 20 de Marzo de 2022 - 28 de Marzo de 2022
+                        p.precio $2,500 dólares
+    .container
+        h2.mt-5.text-center Testimoniales
+        include ./layout/bloque_testimoniales
